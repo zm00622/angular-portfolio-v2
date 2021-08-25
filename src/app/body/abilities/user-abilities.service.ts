@@ -6,78 +6,73 @@ export class UserAbilitiesService {
     myAbilities: "[Your abilities details here]",
     skills: [
       {
-        skillName: "[Skill name]",
+        skillName: "UI / UX Design",
         proficiency: 5 //"[5 to 0]"
       },
       {
-        skillName: "[Skill name]",
-        proficiency: 4 //"[5 to 0]"
-      },
-      {
-        skillName: "[Skill name]",
+        skillName: "Front End Development",
         proficiency: 3 //"[5 to 0]"
       },
       {
-        skillName: "[Skill name]",
-        proficiency: 2 //"[5 to 0]"
+        skillName: "Algorithms",
+        proficiency: 1 //"[5 to 0]"
       },
       {
-        skillName: "[Skill name]",
-        proficiency: 1 //"[5 to 0]"
+        skillName: "SEO",
+        proficiency: 5 //"[5 to 0]"
+      },
+      {
+        skillName: "Multimedia Marketing",
+        proficiency: 5 //"[5 to 0]"
       }
     ],
     languages: [
       {
-        languageName: "[Language name]",
-        level: "[Level here]",
-        proficiency: 5 //"[5 to 0]"
-      },
-      {
-        languageName: "[Language name]",
-        level: "[Level here]",
+        languageName: "JavaScript",
+        level: "4",
         proficiency: 4 //"[5 to 0]"
       },
       {
-        languageName: "[Language name]",
-        level: "[Level here]",
-        proficiency: 3 //"[5 to 0]"
+        languageName: "HTML",
+        level: "5",
+        proficiency: 5 //"[5 to 0]"
       },
       {
-        languageName: "[Language name]",
-        level: "[Level here]",
+        languageName: "CSS",
+        level: "5",
+        proficiency: 5 //"[5 to 0]"
+      },
+      {
+        languageName: "PHP",
+        level: "2",
         proficiency: 2 //"[5 to 0]"
-      },
-      {
-        languageName: "[Language name]",
-        level: "[Level here]",
-        proficiency: 1 //"[5 to 0]"
       }
     ],
     tools: [
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
-        proficiency: 5 //"[5 to 0]"
-      },
-      {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
+        toolName: "React.js",
+        year: "2019 - Current",
         proficiency: 4 //"[5 to 0]"
       },
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
-        proficiency: 3 //"[5 to 0]"
-      },
-      {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
+        toolName: "Angular.js",
+        year: "2021",
         proficiency: 2 //"[5 to 0]"
       },
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
-        proficiency: 1 //"[5 to 0]"
+        toolName: "WordPress",
+        year: "2016 - Current",
+        proficiency: 4 //"[5 to 0]"
+      },
+      {
+        toolName: "Adobe Editing Suite",
+        year: "2010 - Current",
+        proficiency: 2 //"[5 to 0]"
+      },
+      {
+        toolName: "Git",
+        year: "2019 - Current",
+        proficiency: 4 //"[5 to 0]"
       }
     ]
   };

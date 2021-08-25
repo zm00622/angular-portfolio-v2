@@ -5,7 +5,7 @@
     <ul class="no-bullets">
 
       <li *ngFor="let tool of toolsList1">
-        <span class="ability-title">{{ tool['toolName'] }} ({{ tool['year'] }} years)</span>
+        <span class="ability-title">{{ tool['toolName'] }} ({{ tool['year'] }})</span>
         <span class="ability-score">
 					<span [ngClass]="tool['proficiency'] >= 1 ? 'glyphicon glyphicon-star filled': 'glyphicon glyphicon-star'"></span>
 					<span [ngClass]="tool['proficiency'] >= 2 ? 'glyphicon glyphicon-star filled': 'glyphicon glyphicon-star'"></span>
@@ -21,7 +21,7 @@
     <ul class="no-bullets">
 
       <li *ngFor="let tool of toolsList2">
-        <span class="ability-title">{{ tool['toolName'] }} ({{ tool['year'] }} years)</span>
+        <span class="ability-title">{{ tool['toolName'] }} ({{ tool['year'] }})</span>
         <span class="ability-score">
 					<span [ngClass]="tool['proficiency'] >= 1 ? 'glyphicon glyphicon-star filled': 'glyphicon glyphicon-star'"></span>
 					<span [ngClass]="tool['proficiency'] >= 2 ? 'glyphicon glyphicon-star filled': 'glyphicon glyphicon-star'"></span>
